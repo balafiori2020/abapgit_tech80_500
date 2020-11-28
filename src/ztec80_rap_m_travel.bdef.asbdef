@@ -1,0 +1,13 @@
+
+managed; // implementation in class zbp_test_m_travel unique;
+
+define behavior for ZTEC80_RAP_M_TRAVEL alias Travel
+persistent table ZRAP_500_T_TRAVE
+lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

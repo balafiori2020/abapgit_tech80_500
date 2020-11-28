@@ -1,0 +1,7 @@
+@EndUserText.label: 'Service Definition for Travel Managed'
+define service ZTEC80_RAP_SD_TRAVEL {
+  expose ZTEC80_RAP_PROJ_TRAVEL as Travel;
+  expose ZTEC80_RAP_I_AG as Agency;
+  expose ZTEC80_RAP_I_CUS as Customer;
+  expose I_Currency as Currency;
+}

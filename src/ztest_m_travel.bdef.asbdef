@@ -1,0 +1,24 @@
+unmanaged ;
+
+define behavior for ZTEST_M_TRAVEL //alias <alias_name>
+
+lock master
+{
+
+  // semantic key is calculated in a determination
+  field ( readonly ) TravelId;
+
+  // administrative fields (read only)
+
+
+  // mandatory fields that are required to create a travel
+  field ( mandatory ) AgencyId, CustomerId, BookingFee;
+
+  // mandatory fields that are required to create a travel
+  field ( mandatory ) BeginDate, EndDate;
+
+  // standard operations for travel entity
+  create;
+  update;
+  delete;
+}

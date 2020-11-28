@@ -1,0 +1,8 @@
+@EndUserText.label: 'Service Definition for display only app'
+define service ZRAP_500_SD_DIS_TRAVEL {
+  expose ZRAP_500_C_DIS_TRAVEL as Travel;
+  expose ZRAP_500_I_CUSTOMER as Customer;
+  expose ZRAP_500_I_AGENCY as Agency;
+  expose I_Country as Country;
+  expose I_Currency as Currency;
+}

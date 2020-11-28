@@ -1,0 +1,10 @@
+@EndUserText.label: 'Service Definition for Travel Managed'
+define service ZTECH80_SD_TRAVEL {
+  expose ZTEC80_PROJECTION_TRAVEL as Travel;
+  expose ZTEC80_PROJECTION_BOOKING as Booking;
+  expose ZTRAP_500_I_AGENCYT as Agency;
+  expose ZTRAP_500_I_CUSTOMERT as Customer;
+  expose ZTRAP_500_I_AIRLINE as Airline;
+  expose ZTRAP_500_I_FLIGHT as Flight;
+  expose I_Currency as Currency;
+}

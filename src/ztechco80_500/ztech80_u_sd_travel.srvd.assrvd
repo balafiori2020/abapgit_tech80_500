@@ -1,0 +1,10 @@
+@EndUserText.label: 'Unmanaged Scenario Travel'
+define service ZTECH80_U_SD_TRAVEL {
+  expose ZTEC80_U_TRAVEL as Travel;
+  expose ZTRAP_500_I_BOOK as Booking;
+  expose ZTRAP_500_I_AGENCYT as Agency;
+  expose ZTRAP_500_I_CUSTOMERT as Customer;
+  expose ZTRAP_500_I_AIRLINE as Airline;
+  expose ZTRAP_500_I_FLIGHT as Flight;
+  expose I_Currency as Currency;
+}

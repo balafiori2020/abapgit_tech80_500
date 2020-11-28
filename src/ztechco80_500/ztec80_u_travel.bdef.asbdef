@@ -1,0 +1,13 @@
+unmanaged implementation in class  ZCL_TEC80_500_BIMP_U  unique;
+//zbp_tec80_u_travel
+define behavior for ZTEC80_U_TRAVEL //alias <alias_name>
+//late numbering
+//lock master
+//authorization master
+//etag <field_name>
+{
+field(readonly) Travel_Id;
+  create;
+  update;
+  delete;
+}
